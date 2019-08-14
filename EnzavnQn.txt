@@ -1,0 +1,22 @@
+    2  yum install curl-devel gettext-devel openssl-devel zlib-devel  expat-devel
+    3  clear
+    4  yum install gcc perl-ExtUtils-MakeMaker
+    5  cd /usr/src
+    8  wget https://www.kernel.org/pub/software/scm/git/git-2.9.5.tar.gz
+    9  ls
+   10  tar xzf git-2.9.5.tar.gz
+   11  ls
+   12  cd git-2.9.5/
+   13  make prefix=/usr/local/git -2.9.5 all
+   14  curl
+   16  make prefix=/usr/local/git-2.9.5 all
+   17  make prefix=/usr/local/git-2.9.5 install
+   18  git --version 
+
+
+
+
+
+mkdir MyFolder
+cd MyFolder
+git init
